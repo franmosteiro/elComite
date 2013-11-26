@@ -1,0 +1,52 @@
+#fondo_post{
+    background: #eee;padding: 20px 0px; background: url(http://farm9.staticflickr.com/8253/8606538928_3013ebb983_h.jpg); background-size: cover;background-repeat: no-repeat;
+
+}
+#fondo_post h4{
+    color: #fff
+}
+#calendario{
+    background: #eee;padding: 20px 0px; background: url(http://farm9.staticflickr.com/8253/8606538928_3013ebb983_h.jpg); background-size: cover;background-repeat: no-repeat;
+
+}
+#calendario h4{
+    color: #fff
+}
+#calendario iframe{
+    padding: 8px;margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#que-es h4{
+    margin-top: 60px;
+    color: #777;
+}
+#que-es div.left p, #que-es li{
+    font-size: 17px;
+    line-height: 23px;
+    color: #555;
+    padding-right: 55px;
+}
+.lead{
+    color: #999
+}
+#iniciativas{
+    color:#000
+}
+#iniciativas p{
+    font-size: 14px;
+    line-height: 1.428571429;
+    color:#000;
+}
+#iniciativas h4, #que-es .left h4:first-child{
+    color:#444
+}
+#que-es .left h4:first-child{
+    margin-bottom: 20px;
+}
+#speaker img {
+    padding: 10px !important;
+}
