@@ -1,0 +1,76 @@
+/* ------------------------------------------------------------------- */
+/* RESET ------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+*{ margin:0px; padding:0px; border:0px solid; outline:none; }
+article, aside, details, figcaption,
+figure, footer, header, hgroup, menu,
+nav, section, textarea { display:block; }
+html { width:100%; height:100%; -webkit-text-size-adjust:none; }
+body {
+	display:block;
+	width:100%;
+	height:100%;
+	line-height:1.6;
+	color:#FFF; font-size:12px; font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	background:url(../layout/pattern-00.jpg) left top repeat #333;
+	cursor:default;
+	overflow-x:hidden;
+}
+a { color:#FFF; text-decoration:none; }
+a:hover { color:#FFF; text-decoration:underline; }
+strong { color:#FFF; }
+hr { height:1px; }
+
+/* ------------------------------------------------------------------- */
+/* CLEAR, ALIGNMENT, MARGIN & PADDING, ECC --------------------------- */
+/* ------------------------------------------------------------------- */
+.clear { width:100%; height:0px; font-size:0px; clear:both; }
+
+.display_block { display:block !important; }
+.display_none { display:none !important; }
+
+.pos_relative { position:relative; }
+.pos_absolute { position:absolute; }
+
+.left { float:left !important; }
+.right { float:right !important; }
+
+.align_sx { float:left; }
+.align_cx { margin:0px auto; }
+.align_dx { float:right; }
+
+.textleft { text-align:left !important; }
+.textright { text-align:right !important; }
+.textcenter { text-align:center !important; }
+
+.no-margin { margin:0px !important; }
+.no-margin-top { margin-top:0px !important; }
+.no-margin-right { margin-right:0px !important; }
+.no-margin-bottom { margin-bottom:0px !important; }
+.no-margin-left { margin-left:0px !important; }
+
+.no-padding { padding:0px !important; }
+.no-padding-top { padding-top:0px !important; }
+.no-padding-right { padding-right:0px !important; }
+.no-padding-bottom { padding-bottom:0px !important; }
+.no-padding-left { padding-left:0px !important; }
+
+.no-border { border:0px solid !important; }
+.no-border-top { border-top:0px solid !important; }
+.no-border-right { border-right:0px solid !important; }
+.no-border-bottom { border-bottom:0px solid !important; }
+.no-border-left { border-left:0px solid !important; }
+
+/* ------------------------------------------------------------------- */
+/* WEB FONTS --------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+@font-face {
+    font-family:'klilllightcondensedregular';
+    src:url('../fonts/klilllightcondensed-webfont.eot');
+    src:url('../fonts/klilllightcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/klilllightcondensed-webfont.woff') format('woff'),
+        url('../fonts/klilllightcondensed-webfont.ttf') format('truetype'),
+        url('../fonts/klilllightcondensed-webfont.svg#klilllightcondensedregular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}

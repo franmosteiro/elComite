@@ -1,0 +1,112 @@
+/* ------------------------------------------------------------------- */
+/* LANDSCAPE --------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+@media only screen and (min-width: 990px) and (max-width: 1290px) {
+}
+
+/* ------------------------------------------------------------------- */
+/* PORTRAIT ---------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+
+/* --- banner --- */
+#slider,
+#slider .carousel .elem,
+#slider .carousel .elem .edge {
+	height:500px;
+}
+
+/* --- elements width --- */
+.module .content,
+.company .cycle .block,
+.team .cycle,
+.team .cycle .block,
+.service .cycle .block,
+.clients .cycle,
+.portfolio .cycle {
+	width:700px;
+}
+
+/* --- footer --- */
+footer#bottom .col_sx {
+	width:350px;
+}
+
+/* --- white content --- */
+.module.white .commands .arrow.prev,
+.module.white .commands .arrow.next {
+	width:24px !important;
+}
+
+/* --- hidden content --- */
+.hidden_content .col_sx {
+	top:0px; right:0px; bottom:220px; left:0px;
+}
+.hidden_content .col_dx {
+	top:auto; right:0px; bottom:0px; left:0px;
+	width:100%; height:220px;
+}
+.hidden_content .commands .arrow.prev,
+.hidden_content .commands .arrow.next {
+	width:24px !important;
+}
+
+/* --- team --- */
+.team .cycle .elem {
+	margin-left:14px;
+	width:224px;
+}
+	.team .cycle .elem .img,
+	.team .cycle .elem .img img {
+		width:224px; height:126px;
+	}
+
+/* --- service --- */
+.service .cycle .elem {
+	width:320px;
+}
+
+/* --- clients --- */
+.clients .cycle .block,
+.clients .cycle .cycle-sentinel {
+	width:938px;
+}
+	.clients .cycle .line {
+		margin-top:38px;
+		height:85px;
+	}
+		.clients .cycle a {
+			margin-right:38px;
+			width:85px; height:85px;
+		}
+			.clients .cycle a img {
+				top:-85px;
+				width:85px; height:170px;
+			}
+
+/* --- portfolio --- */
+.portfolio .cycle .block,
+.portfolio .cycle .cycle-sentinel {
+	width:914px;
+}
+	.portfolio .cycle .line {
+		margin-top:14px;
+		height:126px;
+	}
+		.portfolio .cycle .elem {
+			margin-right:15px;
+			width:224px; height:126px;
+		}
+			.portfolio .cycle .elem .thumb {
+				width:224px; height:126px;
+			}
+
+/* --- album single --- */
+.album .gallery {
+	top:30px; right:30px; bottom:30px; left:30px;
+}
+
+/* --- contact form --- */
+#contact_form .label_text {
+	width:326px;
+}

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* checkbox */
+div.checker, div.checker input { float:left; margin-right:11px; width:16px; height:16px; cursor:pointer; }
+div.checker span {
+	height:16px; width:16px;
+	display:block;
+	background:url(img/checkbox-normal_bg.gif) top left repeat-x #FFF;
+	border:1px solid #CCC;
+}
+div.checker span:hover { border:1px solid #AAA; }
+div.checker span.checked { background:url(img/checkbox.png) center center no-repeat; }
+div.checker span.checked:hover { background:url(img/checkbox.png) center center no-repeat; }
+
+/* radio */
+div.radio, div.radio input { float:left; width:16px; height:16px; margin-right:11px; cursor:pointer; }
+div.radio span {
+	display:block;
+	width:16px;
+	height:16px;
+	border:1px solid #CCC;
+}
+div.radio span:hover { border:1px solid #AAA; }
+div.radio span.checked { background:url(img/checkbox.png) center center no-repeat; }
+
+/* select */
+div.selector {
+	position:relative;
+	float:left;
+	margin-top:6px;
+	width:290px; height:34px;
+	font-size:12px;
+	overflow:hidden;
+	background:url(img/select-arrow-white.png) right center no-repeat;
+	-webkit-box-shadow:inset 0px 1px 3px 0px rgba(0, 0, 0, 0.30); box-shadow:inset 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+}
+div.selector select {
+	position:absolute;
+	top:0; left:0;
+	width:100%;
+	height:34px;
+	cursor:pointer;
+	border:none;
+	background:none;
+}
+div.selector span {
+	padding:0 12px;
+	height:34px;
+	line-height:34px; text-overflow:ellipsis; white-space:nowrap;
+	color:#FFF;
+	display:block;
+	overflow:hidden;
+}
+
+/* upload file */
+div.uploader {
+	position:relative;
+	height:32px;
+	cursor:pointer;
+}
+
+input[type=file].file {
+	position:absolute;
+	top:0px; left:0px;
+	z-index:2;
+	width:290px; height:32px;
+	cursor:pointer;
+}
+div.uploader span.action {
+	float:left;
+	font-size:0px;
+	text-indent:999em;
+	width:32px; height:32px;
+	line-height:32px;
+	background:url(img/upload.png) center center no-repeat;
+}
+div.uploader span.filename {
+	float:right;
+	width:200px; height:32px;
+	line-height:32px;
+	font-size:11px;
+	text-align:right;
+	white-space:nowrap;
+	overflow:hidden;
+}
+div.uploader:hover span.action { background:url(img/upload_h.png) center center no-repeat; }
+
+.selector select:focus, 
+.radio input:focus, 
+.checker input:focus, 
+.uploader input:focus { outline:0; }
