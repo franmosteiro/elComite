@@ -1,5 +1,5 @@
 #fondo_post{
-    background: #eee;padding: 20px 0px; background: url(http://farm9.staticflickr.com/8253/8606538928_3013ebb983_h.jpg); background-size: cover;background-repeat: no-repeat;
+    background: #eee;background: url(http://farm9.staticflickr.com/8253/8606538928_3013ebb983_h.jpg); background-size: cover;background-repeat: no-repeat;
 
 }
 #fondo_post h4{
@@ -49,4 +49,7 @@
 }
 #speaker img {
     padding: 10px !important;
+}
+.iniciativa p{
+ padding: 10px !important;   
 }
